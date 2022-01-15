@@ -1,0 +1,211 @@
+/* .............. Responsive Css Doc !............. */
+@media all and  (max-width:800px) {
+    .email-logo{
+        display: none;
+    }
+}
+@media all and (max-width:800px) {
+    .email-text{
+        padding-bottom: 24px;
+    }
+}
+@media all and (min-width:767px) {
+    .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media all and (min-width:767px) {
+    .container{
+grid-template-columns: repeat(2,1fr);
+    }
+}
+@media all and (min-width:1070px) {
+    .container{
+grid-template-columns: repeat(3,1fr);
+    }
+}
+@media all and (max-width:800px) {
+    .box{
+display: none;
+    }
+}
+@media all and (min-width:800px) {
+    .image-icon{
+display: none;
+text-align: center;
+    }
+}
+/*.......... Google Font.......... */
+body{
+    font-family: 'Domine', serif;
+}
+/* ..........Basic Degine.......... */
+.container{
+    display: grid;   
+    padding-left: 10%;
+    padding-right: 12%;
+}
+.card{
+    display: flexbox;
+    width: 92%;   
+    box-shadow: 2px 2px 20px rgb(190, 190, 190);
+    border-radius: 10px; 
+    margin: 25px;
+}
+.card-mobile{
+    display: flexbox;
+    width: 92%;   
+    box-shadow: 2px 2px 20px rgb(190, 190, 190);
+    border-radius: 10px; 
+    margin: 25px;
+}
+.image img{
+    width:92%;
+    padding-left: 4%;
+    padding-top: 4%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.title{
+    text-align: center;
+} 
+.des{
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+button{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-color: white;
+    border: 1px solid #8fb9a8;
+    border-radius: 5px;
+    padding:10px;
+}
+button:hover{
+    background-color: #8fb9a8;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+.fa-star.colour{
+    color: #f68b0c;
+}
+.fa-star.empty{
+    color: #edebe8;
+}
+.Collection{
+    font-size: xx-large;
+    padding-left: 39%;
+    padding-top: 3%;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(1, fr);
+}
+ /* .................Menu.................. */
+.menu-titel{
+    font-size: xx-large;
+}
+.menu{
+    padding-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.menu-link{
+    padding-left: 35%;
+    padding-top: 3%;   
+}
+.menu-link a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;   
+}
+#n-1{
+    padding-right: 2%;
+}
+#n-2{
+    padding-right: 2%;
+}
+#n-3{
+    padding-right: 2%;
+}
+#n-4{
+    padding-right: 2%;
+}
+#n-5{
+    padding-right: 2%;
+}
+/* ................Featured post..................... */
+#text-size{
+    font-size: 64px;
+}
+.headings{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+.headings img{
+    width: 100%; 
+}
+/* Image Zoom on Hover */
+
+.image-box {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 540px;
+}
+.image-box img {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+.image-box:hover img {
+    transform: scale(1.1);
+}
+/* ....................Button................. */
+#preebook{
+    background-color: #e22e6d;
+    font-size: 22px;
+    color: white;
+    padding-top: 1%;
+    border-radius: 65px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1%;
+}
+.fa-arrow-down{
+    font-size: 16px;
+}
+.image{
+    display: flex;
+}
+/* logo */
+.logos{
+  padding-left: 20%;
+}
+/* ..................Email................. */
+.email-from{
+    height: 35px;
+    width: 576px;
+    border-radius: 50px;
+}
+.email{
+    display: flex;
+}
+/* .................footer................. */
+footer{
+    /* margin-left: 8%;
+    margin-right: 8%; */
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
